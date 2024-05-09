@@ -195,20 +195,29 @@ class ImageSection extends StatelessWidget {
       height: 240,
       fit: BoxFit.cover,
     );
+    // #enddocregion image-asset
   }
 }
+// #enddocregion image-section
 
+// #docregion favorite-widget
 class FavoriteWidget extends StatefulWidget {
   const FavoriteWidget({super.key});
 
   @override
   State<FavoriteWidget> createState() => _FavoriteWidgetState();
 }
+// #enddocregion favorite-widget
 
+// #docregion favorite-state, favorite-state-fields, favorite-state-build
 class _FavoriteWidgetState extends State<FavoriteWidget> {
+  // #enddocregion favorite-state-build
   bool _isFavorited = true;
   int _favoriteCount = 41;
 
+  // #enddocregion favorite-state-fields
+
+  // #docregion toggle-favorite
   void _toggleFavorite() {
     setState(() {
       if (_isFavorited) {
