@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545902211367",
+    "project_id": "massanger-6f8bb",
+    "storage_bucket": "massanger-6f8bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545902211367:android:5bff09d931f30f30847902",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnF6cY0cUzvBw-M0zGOC3wTDmtwumfNRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
